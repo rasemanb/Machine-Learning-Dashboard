@@ -1,0 +1,118 @@
+body{
+    background-image: url('file:///C:\Users\lynds\Desktop\MSU\MSU\Homework\project4\Resources\Images\moviebox.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+ }
+ #container-background{background-color: azure;
+ 
+ }
+ h1{
+     text-align: center;
+     font-size: 30px;
+     color: rgb(46, 45, 45);
+     font-weight: bold;
+     font-family: Georgia, serif;
+ }
+ .h2{
+     font-family: Georgia, serif;
+     color:rgb(217, 224, 224);
+ }
+ .navbar {
+ 
+     background: rgba(197, 10, 10, 0.864);
+     padding: 15px;
+ }
+ .navbar li {
+     display: inline-block;
+     cursor: pointer;
+     margin-right: 10px;
+     margin-left: 10px;
+ }
+ .navlink{
+     margin: 2% 0;
+     font-family: Georgia, serif;
+     color: rgb(12, 12, 12);
+     font-size: 25px;
+ }
+ 
+ a:link {
+     color: rgb(217,224,224);
+ }
+ a:hover {
+     color:#343632;
+     font-weight: bold;
+ }
+ .dropdown {
+     position: relative;
+     display: inline-block;
+ }
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: rgba(64, 155, 155, 0); 
+     z-index: 1;
+ }
+ .dropdown:hover .dropdown-content{
+     display: block;
+ }
+ .dropdown-content a {
+     color:rgb(217,224,224);
+     font-size: 20px;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     font-family: Georgia, serif;
+   }
+ 
+ .blank-row {
+     padding: 20px;
+ }
+ .blank-row-2 {
+     padding: 40px;
+     background-color: azure;
+ }
+ .box-1 {
+     height: 80px;
+     width: 130px;
+     padding: 7px;
+     background: rgb(194, 171, 194, 0.5);
+     margin-left: 180px;
+     backdrop-filter: blur(10px);
+     backdrop-filter: blur(10px);
+ }
+ 
+ .box-2 {
+     height: 200px;
+     padding: 1px;
+     backdrop-filter: blur(10px);
+     max-height: 80%;
+     line-height: 1;
+     font-family: Georgia, serif;
+ 
+ }
+ .box-3 {
+     padding: 5px; 
+ }
+ .blank-box {
+     padding:5px;
+ }
+ .thumbnail {
+     top:-50px; 
+     left:4em; 
+     display:block; 
+     z-index:999; 
+     cursor:pointer;
+     -webkit-transition-property: all;
+     -webkit-animation-duration: .03s;
+     -webkit-transition-timing-function: ease;
+ }
+ .thumbnail:hover{
+ 
+     transform: scale(1.4);
+ }
+ @media (max-width: 600px)
+     .navbar {
+ 
+     }
+ 
