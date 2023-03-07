@@ -103,7 +103,8 @@ body{
 
  .thumbnail:hover{
  
-     transform: scale(1.4);
+     transform: scale(1.8
+    );
  }
  @media (max-width: 600px)
      .navbar {
