@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-position: center;
  }
- #container-background{background-color: rgb(163, 163, 163);
+ #container-background{background-color: #a3a3a3;
  }
  .navbar-default .navbar-brand {
   color: #050505;
@@ -108,16 +108,19 @@ body{
  .blank-box {
      padding:5px;
  }
-.thumbnail {
-  z-index: 0;
-}
- .thumbnail:hover{
-      transform: scale(1.8);
-    z-index: 10;
+/*.zoom {
+  z-index: -1; 
+  position: static !important;
+}*/
+ .zoom:hover{
+   transform: scale(1.8);
+   -ms-transform: scale(1.8); /* IE 9 */
+   -webkit-transform: scale(1.8); /* Safari 3-8 */
  }
- .thumbnail2:hover{
+ .zoom2:hover{
    transform: scale(1.4);
-   z-index: 10;
+   -ms-transform: scale(1.4); /* IE 9 */
+   -webkit-transform: scale(1.4); /* Safari 3-8 */
 }
  @media (max-width: 600px)
      .navbar {
