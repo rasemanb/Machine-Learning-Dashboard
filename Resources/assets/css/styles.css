@@ -122,6 +122,16 @@ body{
    -ms-transform: scale(1.4); /* IE 9 */
    -webkit-transform: scale(1.4); /* Safari 3-8 */
 }
+.thumbnail:hover{
+  transform: scale(1.8);
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari 3-8 */
+}
+.thumbnail2:hover{
+  transform: scale(1.4);
+  -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+}
  @media (max-width: 600px)
      .navbar {
  
