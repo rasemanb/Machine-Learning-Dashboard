@@ -1,5 +1,5 @@
 body{
-    background-image: url('file:///C:/Users/lynds/Desktop/MSU/MSU/Homework/project4/Resources/Images/moviebox.webp');
+    background-image: url("../../Images/moviebox.webp");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -104,8 +104,18 @@ body{
  
  }
  .box-3 {
-     padding: 5px; 
- }
+    padding: 5px;
+    margin-left: 20px;
+      }
+.genremargin: {
+  margin-left: 20px;
+}
+.imagelocleft {
+  transform-origin: top left;
+}
+.imagelocright {
+  transform-origin: top right;
+}
  .blank-box {
      padding:5px;
  }
@@ -114,11 +124,11 @@ body{
   position: relative !important;
 }
  .zoom:hover{
-  position: relative;
-  z-index: 1 !important;
-  transform: scale(1.8);
-  -ms-transform: scale(1.8); /* IE 9 */
-  -webkit-transform: scale(1.8); /* Safari 3-8 */
+  position:relative;
+  z-index: 1;
+   transform: scale(1.8);
+   -ms-transform: scale(1.8); /* IE 9 */
+   -webkit-transform: scale(1.8); /* Safari 3-8 */
  }
  .zoom2:hover{
    transform: scale(1.4);
@@ -126,12 +136,18 @@ body{
    -webkit-transform: scale(1.4); /* Safari 3-8 */
 }
 .thumbnail:hover{
-  position: relative;
-  z-index: 1 !important;
-  transform: scale(1.8) !important;
-  -ms-transform: scale(1.8); /* IE 9 */
-  -webkit-transform: scale(1.8); /* Safari 3-8 */
-  /*transform: translate(50px, 100px) !important*/
+  position:relative;
+  z-index: 1;
+   transform: scale(1.8) translate(100px, 25px);
+   -ms-transform: scale(1.8); /* IE 9 */
+   -webkit-transform: scale(1.8); /* Safari 3-8 */
+}
+.thumbnailright:hover{
+  position:relative;
+  z-index: 1;
+   transform: scale(1.8) translate(-100px, 25px);
+   -ms-transform: scale(1.8); /* IE 9 */
+   -webkit-transform: scale(1.8); /* Safari 3-8 */
 }
 .thumbnail2:hover{
   position: relative;
