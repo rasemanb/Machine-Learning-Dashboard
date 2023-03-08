@@ -124,19 +124,11 @@ body{
   position: relative !important;
 }
  .zoom:hover{
-<<<<<<< HEAD
   position:relative;
   z-index: 1;
    transform: scale(1.8);
    -ms-transform: scale(1.8); /* IE 9 */
    -webkit-transform: scale(1.8); /* Safari 3-8 */
-=======
-  position: relative;
-  z-index: 1 !important;
-  transform: scale(1.8);
-  -ms-transform: scale(1.8); /* IE 9 */
-  -webkit-transform: scale(1.8); /* Safari 3-8 */
->>>>>>> e5996434b9f5b65f5d417dc036c178ff0d9cd720
  }
  .zoom2:hover{
    transform: scale(1.4);
@@ -144,7 +136,6 @@ body{
    -webkit-transform: scale(1.4); /* Safari 3-8 */
 }
 .thumbnail:hover{
-<<<<<<< HEAD
   position:relative;
   z-index: 1;
    transform: scale(1.8) translate(100px, 25px);
@@ -157,14 +148,6 @@ body{
    transform: scale(1.8) translate(-100px, 25px);
    -ms-transform: scale(1.8); /* IE 9 */
    -webkit-transform: scale(1.8); /* Safari 3-8 */
-=======
-  position: relative;
-  z-index: 1 !important;
-  transform: scale(1.8) !important;
-  -ms-transform: scale(1.8); /* IE 9 */
-  -webkit-transform: scale(1.8); /* Safari 3-8 */
-  /*transform: translate(50px, 100px) !important*/
->>>>>>> e5996434b9f5b65f5d417dc036c178ff0d9cd720
 }
 .thumbnail2:hover{
   position: relative;
