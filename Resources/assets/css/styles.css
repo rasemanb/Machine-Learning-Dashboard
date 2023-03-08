@@ -1,5 +1,5 @@
 body{
-    background-image: url('file:///C:/Users/lynds/Desktop/MSU/MSU/Homework/project4/Resources/Images/moviebox.webp');
+    background-image: url("../../Images/moviebox.webp");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
