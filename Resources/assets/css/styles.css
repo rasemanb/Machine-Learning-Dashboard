@@ -104,8 +104,18 @@ body{
  
  }
  .box-3 {
-     padding: 5px; 
- }
+    padding: 5px;
+    margin-left: 20px;
+      }
+.genremargin: {
+  margin-left: 20px;
+}
+.imagelocleft {
+  transform-origin: top left;
+}
+.imagelocright {
+  transform-origin: top right;
+}
  .blank-box {
      padding:5px;
  }
@@ -114,6 +124,8 @@ body{
   position: static !important;
 }*/
  .zoom:hover{
+  position:relative;
+  z-index: 1;
    transform: scale(1.8);
    -ms-transform: scale(1.8); /* IE 9 */
    -webkit-transform: scale(1.8); /* Safari 3-8 */
@@ -124,9 +136,18 @@ body{
    -webkit-transform: scale(1.4); /* Safari 3-8 */
 }
 .thumbnail:hover{
-  transform: scale(1.8);
-  -ms-transform: scale(1.8); /* IE 9 */
-  -webkit-transform: scale(1.8); /* Safari 3-8 */
+  position:relative;
+  z-index: 1;
+   transform: scale(1.8) translate(100px, 25px);
+   -ms-transform: scale(1.8); /* IE 9 */
+   -webkit-transform: scale(1.8); /* Safari 3-8 */
+}
+.thumbnailright:hover{
+  position:relative;
+  z-index: 1;
+   transform: scale(1.8) translate(-100px, 25px);
+   -ms-transform: scale(1.8); /* IE 9 */
+   -webkit-transform: scale(1.8); /* Safari 3-8 */
 }
 .thumbnail2:hover{
   transform: scale(1.4);
