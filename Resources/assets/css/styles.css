@@ -19,8 +19,8 @@ body{
 }
  h1{
      text-align: center;
-     font-size: 30px;
-     color: rgb(46, 45, 45);
+     font-size: 25px;
+     color: rgb(255, 55, 55);
      font-weight: bold;
      font-family: Georgia, serif;
  }
@@ -29,10 +29,8 @@ body{
      color:rgb(95, 95, 95);
  }
  .navbar {
- 
      background: rgba(197, 10, 10, 0.864);
      padding: 15px;
-    
      font-size: 24px;
  }
  .navbar li {
@@ -52,8 +50,8 @@ body{
      color: rgb(65, 66, 66);
  }
  a:hover {
-     color:#0f0f0f;
-     font-weight: bold;
+     color:#ffffff;
+/*     font-weight: bold;*/
  }
  .dropdown {
      position: relative;
@@ -84,10 +82,16 @@ body{
      padding: 40px;
      background-color: azure;
  }
+ .box1padding1 {
+    padding: 1px;
+ }
+ .box1padding2 {
+    padding: 8px;
+ }
  .box-1 {
-     height: 80px;
-     width: 130px;
-     padding: 7px;
+     height: 100px;
+     width: 160px;
+
      background: rgba(46, 43, 46, 0.5);
      margin-left: 180px;
      backdrop-filter: blur(10px);
