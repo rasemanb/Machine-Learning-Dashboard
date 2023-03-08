@@ -5,9 +5,17 @@ body{
     background-position: center;
  }
  #container-background{background-color: rgb(163, 163, 163);
- 
-
  }
+ .navbar-default .navbar-brand {
+  color: #050505;
+}
+.nav .navbar-nav{
+  color: #050505 !important;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+  color: #fdfafa;
+  background-color: transparent;
+}
  h1{
      text-align: center;
      font-size: 30px;
@@ -100,16 +108,16 @@ body{
  .blank-box {
      padding:5px;
  }
-
+.thumbnail {
+  z-index: 0;
+}
  .thumbnail:hover{
- 
-     transform: scale(1.8
-    );
+      transform: scale(1.8);
+    z-index: 10;
  }
  .thumbnail2:hover{
- 
-  transform: scale(1.4
- );
+   transform: scale(1.4);
+   z-index: 10;
 }
  @media (max-width: 600px)
      .navbar {
