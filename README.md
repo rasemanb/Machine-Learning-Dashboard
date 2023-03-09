@@ -83,5 +83,12 @@ portion, as well as tensorflow, pandas, numpy, and matplotlib (used to visualize
   - Building ML portion of the website.
   - Creating chatbot.
   
+ ### ***Kim***
  
+ #### Responsibilities:
+ 
+   - Extacted the data from the csv files.
+   - Transformed & cleaned up the data frames, and saved new cvs file.
+   - Loaded the dataframe into Postgres to create table.
+   - Took snapshots of work to be used on website.
 
