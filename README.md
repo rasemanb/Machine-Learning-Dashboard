@@ -92,3 +92,9 @@ portion, as well as tensorflow, pandas, numpy, and matplotlib (used to visualize
    - Loaded the dataframe into Postgres to create table.
    - Took snapshots of work to be used on website.
 
+### ***Nick***
+#### Responsibilities:
+   - Assisted in locating CSV FIles for project
+   - Built front end for Chatbot
+   - Embedded screenshots of chatbot code
+
