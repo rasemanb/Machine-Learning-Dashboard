@@ -10,24 +10,24 @@ other machine learning libraries) were also required in this project.
 
 # Process
 
-### 1. Extract - CSV Files
+#### 1. Extract - CSV Files
 
    - Downloaded data from Kaggle containing 45,000 movies and 270,000 users.
  
-### 2. Transform - Google Colab
+#### 2. Transform - Google Colab
 
    - Read in data files, cleaned data frames and dropped duplicates, merged data, and formatted so it could be
   loaded to Posgres.
  
-### 3. Load - Postgres
+#### 3. Load - Postgres
 
    - Set up a connection to our Postgres database and loaded in the cleaned and formatted data.
   
-### 4. Website
+#### 4. Website
 
    - Used HTML/CSS and Bootstrap to create an interactive website with embedded Tableau links.
   
-### 5. Tableau (Visualizations)
+#### 5. Tableau (Visualizations)
  
    - Genre
     
@@ -43,7 +43,7 @@ other machine learning libraries) were also required in this project.
     
      - Created heatmaps of average user ratings.
     
-### 6. Machine Learning 
+#### 6. Machine Learning 
   
    - Cleaned and filtered data to only contain needed variables.
   
@@ -59,7 +59,7 @@ other machine learning libraries) were also required in this project.
   
    - Optimized models both achieved accuracy scores of 0.97 or higher.
   
-### 7. Chatbot Movie Recommender
+#### 7. Chatbot Movie Recommender
 
    - Attempted to recreate ChatGPT and use it as a movie reccomender.
   
@@ -73,9 +73,9 @@ to Postgres. We used Tableau to visualize the trends throughout the top 30 movie
 website. We also used HTML/CSS and Bootstrap to build the interactive website. SKlearn was used for the Machine learning
 portion, as well as tensorflow, pandas, numpy, and matplotlib (used to visualize MSE). 
 
-## ***Ben***
+### ***Ben***
 
-### Responsibilities:
+#### Responsibilities:
 
   - Manipulating and cleaning data for Machine Learning portion.
   - Creating two neural networks to predict rating based on genre and title.
