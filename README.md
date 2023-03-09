@@ -72,7 +72,7 @@ to Postgres. We used Tableau to visualize the trends throughout the top 30 movie
 website. We also used HTML/CSS and Bootstrap to build the interactive website. SKlearn was used for the Machine learning
 portion, as well as tensorflow, pandas, numpy, and matplotlib (used to visualize MSE). 
 
-*** Ben ***
+*Ben* 
 
 Responsibilities:
 
