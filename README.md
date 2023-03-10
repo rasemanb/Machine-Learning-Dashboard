@@ -100,6 +100,6 @@ portion, as well as tensorflow, pandas, numpy, and matplotlib (used to visualize
 
 ### ***Kirsten***
 #### Responsibilities:
-   -Proposal items on webpage
-   -Assited with data cleaning
-   -Used KMeans to utilize cluster mapping to analayze what affected vote average
+   - Proposal items on webpage
+   - Assited with data cleaning
+   - Used KMeans to utilize cluster mapping to analayze what affected vote average
